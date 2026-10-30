@@ -1,9 +1,10 @@
-sales = []
-for stores in range (1,6):
-    amount=int(input(f"Enter amount of sales in store {stores}: "))
-    while amount < 0
-    print("ERROR - Sales amount can't be less than 0")
-
-
-print("SALES BAR CHART")
-print("Each * = $100")
+ast = ""
+store=int(input("Enter number of stores: "))
+for i in range (store):
+    sales=int(input("Enter today's number of sales in store "+str(i+1)+": "))
+    sales=int(sales)
+    sales=sales/100
+    sales=int(sales)
+    for j in range (sales):
+        ast=ast+"*"
+    ast=ast+"/n"
